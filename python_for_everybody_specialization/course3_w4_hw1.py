@@ -1,3 +1,7 @@
+'''
+This file scrap the span tags from the given website and add up the sum of the contents.
+'''
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import ssl
